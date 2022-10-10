@@ -20,7 +20,7 @@ export default class Tab extends React.Component {
     accessible: PropTypes.bool,
     accessibilityLabel : PropTypes.string,
     title: PropTypes.string,
-    titleStyle: Text.propTypes.style,
+    titleStyle: ViewPropTypes.style,
     badge: PropTypes.element,
     onPress: PropTypes.func,
     hidesTabTouch: PropTypes.bool,
