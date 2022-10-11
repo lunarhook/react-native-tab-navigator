@@ -28,3 +28,5 @@ node_modules
 
 # Webstorm
 .idea
+.DS_Store
+.DS_Store

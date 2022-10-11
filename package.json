@@ -1,11 +1,11 @@
 {
-  "name": "react-native-tab-navigator",
-  "version": "0.3.4",
+  "name": "@lunarhook/react-native-tab-navigator",
+  "version": "0.3.7",
   "description": "A tab bar that switches between scenes, written in JS for cross-platform support",
   "main": "TabNavigator.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exponentjs/react-native-tab-navigator.git"
+    "url": "git+https://github.com/lunarhook/react-native-tab-navigator"
   },
   "keywords": [
     "react-native",
@@ -14,13 +14,14 @@
     "ios",
     "android"
   ],
-  "author": "James Ide",
+  "author": "James Ide (fix by lunarhook)" ,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exponentjs/react-native-tab-navigator/issues"
+    "url": "https://github.com/lunarhook/react-native-tab-navigator/issues"
   },
-  "homepage": "https://github.com/exponentjs/react-native-tab-navigator#readme",
+  "homepage": "https://github.com/lunarhook/react-native-tab-navigator#readme",
   "dependencies": {
+    "deprecated-react-native-prop-types": "^2.3.0",
     "immutable": "^3.8.1",
     "prop-types": "^15.5.10"
   }
